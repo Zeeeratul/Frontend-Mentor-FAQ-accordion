@@ -1,0 +1,54 @@
+.images {
+    overflow: hidden;
+    width: 390px;
+    height: 100%;
+}
+
+.images--women {
+    position: relative;
+    left: -84px;
+    top: 70px;
+    z-index: 1;
+}
+
+.images--pattern {
+    position: relative;
+    left: -576px;
+    top: -656px;
+}
+
+.images--box {
+    position: absolute;
+    left: -93px;
+    top: 205px;
+    z-index: 2;
+}
+
+@media (max-width: 850px) {
+
+    .images {
+        width: 100%;
+        height: 20%;
+    }
+
+    .images--box {
+        display: none;
+    }
+
+    .images--women {
+        position: absolute;
+        width: 237px;
+        height: 180px;
+        left: 50%;
+        top: -107px;
+        margin-left: -118px;
+    }
+    
+    .images--pattern {
+        width: 240px;
+        height: auto;
+        top: -130px;
+        left: 50%;
+        margin-left: -120px;
+    }
+}
